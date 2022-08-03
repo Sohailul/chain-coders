@@ -1,21 +1,27 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Banner from './components/Banner'
-import Footer from './shared/Footer'
-import Navbar from './shared/Navbar'
+import Services from './Services'
+import Footer from './components/shared/Footer'
+import Navbar from './components/shared/Navbar'
+import ChooseUs from './components/ChooseUs'
+import Technology from './components/Technology'
+import AboutUs from './components/AboutUs'
 
 export default function Home() {
   return (
-    <div className='bg-[#111827]'>
+    <div>
       <Head>
         <title>Chain Coders</title>
         <meta name="description" content="Chain Coders- Providing Reliable Tech Services" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <main className={styles.main}>
+      <main>
         <Banner/>
+        <AboutUs/>
+        <ChooseUs/>
+        <Services/>
+        <Technology/>
       </main>
 
       <footer>

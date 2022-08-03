@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "img":"/assets/web-development.jpg",
+        "title":"Website Development",
+        "description":"We Develop Business, Portfolio, Blog, eCommerce, and different types of Websites with maintaining good Quality and Security."
+    },
+    {
+        "id":2,
+        "img":"/assets/landing-page.jpg",
+        "title":"Landing Page Design",
+        "description":"We create responsive single page applications and Landing Pages for Business Marketing, and Product Showcase or Review."
+    },
+    {
+        "id":3,
+        "img":"/assets/wordpress.jpg",
+        "title":"WordPress",
+        "description":"WordPress is the most popular CMS in the World. We will create your Business, Blog, Portfolio, and eCommerce website with WP."
+    },
+    {
+        "id":4,
+        "img":"/assets/ecommerce.jpg",
+        "title":"E-Commerce Solution",
+        "description":"We will Create your eCommerce Website, Manage Store, Add Products on Store, etc about eCommerce will maintain professionally."
+    },
+    {
+        "id":5,
+        "img":"/assets/digital-marketing.jpg",
+        "title":"Digital Marketing",
+        "description":"At Present, Digital marketing is the main weapon for Targeting your Audience and Generate Sales. We'll help you to grow online."
+    },
+    {
+        "id":6,
+        "img":"/assets/maintainence.jpg",
+        "title":"Website maintainence",
+        "description":"If you're not professional to maintain your website or you don't have much time then We'll take care your sites professionally."
+    }
+]

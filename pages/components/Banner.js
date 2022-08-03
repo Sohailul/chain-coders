@@ -2,9 +2,9 @@ import Image from 'next/image';
 import chainbanner from '../../public/assets/chain-banner.png';
 const Banner = () => {
   return (
-    <div>
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+    <div className='bg-[#111827]'>
+      <div className="hero px-5">
+        <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
             src={chainbanner}
             width={1000}
@@ -14,9 +14,9 @@ const Banner = () => {
           <div className='text-white'>
             <h1 className="text-5xl font-bold">Chain Coders</h1>
             <h3 className="py-6 text-2xl font-bold">
-              Providing reliable tech services. Maintaining High Quality. Trust & Grow Your Business with Us.
+              Providing reliable tech services. Maintaining High Quality Products. Trust & Grow Your Business with Us.
             </h3>
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn btn-secondary text-white rounded-full">Get Free Consultation</button>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/assets/logo.png";
+import logo from "../../../public/assets/logo.png";
 
 const Navbar = () => {
   const menuItems = (
@@ -11,17 +11,17 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="font-bold uppercase" href="/services">
+        <Link className="font-bold uppercase" href="/Services">
           <a>Services</a>
         </Link>
       </li>
       <li>
-        <Link className="font-bold uppercase" href="/contact">
-          <a>About Us</a>
+        <Link className="font-bold uppercase" href="/domain_hosting">
+          <a>Domain & Hosting</a>
         </Link>
       </li>
       <li>
-        <Link className="font-bold uppercase" href="/contact">
+        <Link className="font-bold uppercase" href="/Contact">
           <a>Contact Us</a>
         </Link>
       </li>
