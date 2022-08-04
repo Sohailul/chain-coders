@@ -16,8 +16,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="font-bold uppercase" href="/domain_hosting">
-          <a>Domain & Hosting</a>
+        <Link className="font-bold uppercase" href="/Portfolio">
+          <a>Portfolio</a>
         </Link>
       </li>
       <li>
