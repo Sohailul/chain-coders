@@ -4,6 +4,8 @@ import next from "../../public/assets/technologies/Nextjs.png";
 import node from "../../public/assets/technologies/nodejs.png";
 import mongodb from "../../public/assets/technologies/MongoDB.png";
 import wordpress from "../../public/assets/technologies/WordPress.png";
+import tailwind from "../../public/assets/technologies/tailwind-css.svg";
+import firebase from "../../public/assets/technologies/Firebase.png";
 
 const Technology = () => {
   return (
@@ -27,6 +29,12 @@ const Technology = () => {
           </div>
           <div className="card flex justify-center items-center max-w p-5 bg-gray-300 rounded">
             <Image src={wordpress} width={261} height={99} alt="" />
+          </div>
+          <div className="card flex justify-center items-center max-w p-5 bg-gray-300 rounded">
+            <Image src={tailwind} width={261} height={99} alt="" />
+          </div>
+          <div className="card flex justify-center items-center max-w p-5 bg-gray-300 rounded">
+            <Image src={firebase} width={261} height={99} alt="" />
           </div>
         </div>
       </div>
