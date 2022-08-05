@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <footer className="footer footer-center p-10 bg-accent text-white">
         <div>
-          <Image src={logo} width={221} height={141} />
+          <Image src={logo} width={221} height={141} alt=""/>
           <p className="font-bold text-xl">
             ChainCoders Technology
             <br />
@@ -18,13 +18,13 @@ const Footer = () => {
           <p>Copyright © 2022 - All right reserved</p>
         </div>
           <div className="grid grid-flow-col gap-2 -mt-5">
-            <a href="https://facebook.com/chaincoders" target="_blank" className="text-3xl">
+            <a href="https://facebook.com/chaincoders" target="_blank" rel="noreferrer" className="text-3xl">
               <FaFacebookSquare/>
             </a>
-            <a href="https://www.linkedin.com/company/chain-coders/" target="_blank" className="text-3xl">
+            <a href="https://www.linkedin.com/company/chain-coders/" target="_blank" rel="noreferrer" className="text-3xl">
               <BsLinkedin/>
             </a>
-            <a href="mailto: sohailulalam@gmail.com" target="_blank" className="text-4xl">
+            <a href="mailto: sohailulalam@gmail.com" target="_blank" rel="noreferrer" className="text-4xl">
                 <MdEmail />
             </a>
           </div>

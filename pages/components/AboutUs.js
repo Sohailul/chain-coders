@@ -10,12 +10,12 @@ const AboutUs = () => {
       </h1>
       <div className="hero px-5">
         <div className="hero-content flex-col lg:flex-row">
-          <Image src={about} className="lg:max-w-xl rounded-lg bounce" />
+          <Image src={about} className="lg:max-w-xl rounded-lg bounce" alt=""/>
           <div className="max-w-xl">
             <p className="text-md text-justify py-6 text-white">
               Chain Coders is a Tech Service Providing Agency that helps new and
               established Business, Company, and Organizations to grow their
-              online presence and generate sales. We've a team of Web Software
+              online presence and generate sales. We&apos;ve a team of Web Software
               Development and digital marketing experts that will surely take
               care of your needs. We are offering Website Development,
               Responsive Web Design, Landing page Design, eCommerce Solution and

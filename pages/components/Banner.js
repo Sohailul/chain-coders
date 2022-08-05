@@ -12,6 +12,7 @@ const Banner = () => {
             width={1000}
             height={1000}
             className="lg:max-w-xl rounded-lg bounce"
+            alt=""
           />
           <div className="text-white">
             <h1 className="text-5xl font-bold">Chain Coders</h1>

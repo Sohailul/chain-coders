@@ -53,19 +53,19 @@ const GetInTouch = () => {
           <div className="card-body items-center text-center text-white">
             <h1 className="text-xl font-bold">Connect Us</h1>
             <div className="icons flex text-2xl gap-3">
-              <a href="https://chain-coders.com" target="_blank">
+              <a href="https://chain-coders.com" target="_blank" rel="noreferrer">
                 <FiGlobe />
               </a>
               <a
                 href="https://www.linkedin.com/company/chain-coders/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <BsLinkedin />
               </a>
-              <a href="https://facebook.com/chaincoders" target="_blank">
+              <a href="https://facebook.com/chaincoders" target="_blank" rel="noreferrer">
                 <FaFacebookSquare />
               </a>
-              <a href="mailto: sohailulalam@gmail.com" target="_blank">
+              <a href="mailto: sohailulalam@gmail.com" target="_blank" rel="noreferrer">
                 <MdEmail />
               </a>
             </div>
