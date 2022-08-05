@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import about from "../../public/assets/about.png";
 
 const AboutUs = () => {
@@ -23,9 +24,13 @@ const AboutUs = () => {
               community management, Lead generation, Content Writing, SEO, Paid
               Advertising, etc.
             </p>
+            <Link href="/Contact">
+            <a>
             <button className="btn btn-primary text-white rounded-full">
               Contact us
             </button>
+            </a>
+            </Link>
           </div>
         </div>
       </div>

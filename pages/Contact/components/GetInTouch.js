@@ -16,7 +16,7 @@ const GetInTouch = () => {
                 Get In Touch for free consultation and get best quotes. Quality
                 Service || 24/7 Support
               </p>
-              <a href="" target="_blank" rel="noreferrer">
+              <a href="https://m.me/chaincoders" target="_blank" rel="noreferrer">
                 <button className="btn btn-primary rounded-full">
                   Contact Us
                 </button>
@@ -33,7 +33,7 @@ const GetInTouch = () => {
           </span>
           <div className="card-body items-center text-center text-white">
             <h1 className="text-xl font-bold">Location</h1>
-            <p>Bahaddarhat-4212, Chittagong, Bangladesh</p>
+            <p>KB Aman Ali Road, Chawkbazar, Chittagong, Bangladesh</p>
           </div>
         </div>
         <div className="card max-w bg-[#111827] shadow-xl pt-5">
@@ -62,7 +62,7 @@ const GetInTouch = () => {
               >
                 <BsLinkedin />
               </a>
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://facebook.com/chaincoders" target="_blank">
                 <FaFacebookSquare />
               </a>
               <a href="mailto: sohailulalam@gmail.com" target="_blank">

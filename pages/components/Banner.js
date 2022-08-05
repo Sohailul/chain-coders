@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import chainbanner from "../../public/assets/chain-banner.png";
 const Banner = () => {
   return (
@@ -17,9 +19,13 @@ const Banner = () => {
               Providing reliable tech services. Maintaining High Quality
               Products. Trust & Grow Your Business with Us.
             </h3>
+            <Link href="/Contact">
+            <a>
             <button className="btn btn-secondary text-white rounded-full">
               Get Free Consultation
             </button>
+            </a>
+            </Link>
           </div>
         </div>
       </div>

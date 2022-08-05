@@ -176,6 +176,38 @@ const Projects = () => {
             </p>
           </div>
         </div>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://live.staticflickr.com/65535/52264742514_a6a975330e_k.jpg"
+              alt=""
+            />
+          </figure>
+          <div className="card-body bg-secondary text-white">
+            <h2 className="text-3xl font-bold text-center mb-2">
+              ProthomBoi
+            </h2>
+            <div className="card-actions">
+              <div className="badge badge-outline">WordPress</div>
+              <div className="badge badge-outline">WooCommerce</div>
+              <div className="badge badge-outline">CPanel</div>
+              <div className="badge badge-outline">ECommerce Website</div>
+            </div>
+            <p className="flex justify-center items-center gap-5 mt-3 m-auto">
+              <a
+                href="https://prothomboi.com/"
+                rel="noreferrer"
+                target="_blank"
+                className="btn btn-sm btn-neutral mt-5"
+              >
+                <span className="text-2xl">
+                  <AiFillEye />
+                </span>
+                &nbsp; Live
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
