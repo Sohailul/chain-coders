@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-const Services = () => {
+const ServiceComponent = () => {
   const [services, setServices] = useState([]);
   const [isLoading, setLoading] = useState(false);
 
@@ -42,4 +42,4 @@ const Services = () => {
     </div>
   );
 };
-export default Services;
+export default ServiceComponent;

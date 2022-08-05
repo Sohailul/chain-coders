@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Banner from './components/Banner'
-import Services from './Services'
+import ServiceComponent from './components/ServiceComponent'
 import Footer from './components/shared/Footer'
 import Navbar from './components/shared/Navbar'
 import ChooseUs from './components/ChooseUs'
@@ -20,7 +20,7 @@ export default function Home() {
         <Banner/>
         <AboutUs/>
         <ChooseUs/>
-        <Services/>
+        <ServiceComponent/>
         <Technology/>
       </main>
 

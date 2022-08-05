@@ -55,9 +55,11 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
+          <Link href="/">
           <a>
-            <Image src={logo} width={368} height={80} />
+            <Image src={logo} width={368} height={80} alt=""/>
           </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex navbar-end">
           <ul className="menu menu-horizontal p-0 uppercase font-bold">
