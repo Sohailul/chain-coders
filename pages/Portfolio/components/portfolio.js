@@ -2,9 +2,9 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
-    <div className="bg-gray-800 py-12 flex justify-center items-center">
+    <div className="bg-gray-800 py-8 flex justify-center items-center px-5">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52263553854_1b3a65373e_h.jpg"
@@ -38,7 +38,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52263310338_14a7a65209_h.jpg"
@@ -73,7 +73,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52093303459_eb128e5969_b.jpg"
@@ -108,7 +108,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52093066586_828af4ab1b_b.jpg"
@@ -143,7 +143,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52093303399_b3ca9779f8_b.jpg"
@@ -176,7 +176,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card max-w-sm bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://live.staticflickr.com/65535/52264742514_a6a975330e_k.jpg"

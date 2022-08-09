@@ -3,6 +3,7 @@ import logo from "../../../public/assets/logo-img.png";
 import {FaFacebookSquare, FaTwitterSquare} from 'react-icons/fa';
 import {BsLinkedin} from 'react-icons/bs';
 import { MdEmail } from "react-icons/md";
+import weaccept from "../../../public/assets/we-accept.png";
 
 const Footer = () => {
   return (
@@ -27,6 +28,9 @@ const Footer = () => {
             <a href="mailto: sohailulalam@gmail.com" target="_blank" rel="noreferrer" className="text-4xl">
                 <MdEmail />
             </a>
+          </div>
+          <div className="bg-base-100 rounded-lg -my-5">
+            <Image src={weaccept} width={500} height={100} alt="we accept"/>
           </div>
       </footer>
     </div>
